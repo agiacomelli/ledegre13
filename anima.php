@@ -207,8 +207,10 @@ function saveCopy() {
 	doc.text(left_offset, (l+=10), "Hence it is a legitimate – not to say crucial – task of literary");
 	doc.text(left_offset, (l+=10), "research to scrutinize the role of the number 13 in western");
 	doc.text(left_offset, (l+=10), "literature. One could for example compare the thirteenth line");
-	doc.text(left_offset, (l+=10), "of the most spoken-of and most written-about, let's say the");
+	doc.text(left_offset, (l+=10), "of the most spoken-of and most written-about texts, let's say the");
 	doc.text(left_offset, (l+=10), "top 100.");
+	doc.text(left_offset, (l+=10), "");
+	doc.text(left_offset, (l+=10), "This is the result.");
 	doc.text(left_offset, (l+=10), "");
 	doc.text(left_offset, (l+=10), "The editor would like to thank Daniel Shiffman for his inspiring");
 	doc.text(left_offset, (l+=10), "lessons and for the scrolling algorithm used on the website.");
@@ -327,18 +329,13 @@ function saveCopy() {
 <?php
 mail($TO_MAIL, $SUBJ_MAIL, "A new copy was downloaded by ". $serverInfo[0].".");
 ?>
-
-
 }
-
 </script>
 </div>
-
 <div id="unten">
 	<p>Click the button below in order to save your personalized and<br />
 	   unique copy of the current randomized selection of 13-liners.</p>
 	<button onclick="saveCopy()">Save a PDF!</button>
 </div>
-
 </body>
 </html>
