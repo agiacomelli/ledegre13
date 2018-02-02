@@ -1,4 +1,4 @@
-#Le degré 13 de la littérature
+Le degré 13 de la littérature
 
 If the myths that surround the number 13 are still alive
 in all western cultures and beyond, then it is because
