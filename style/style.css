@@ -1,0 +1,71 @@
+
+/*
+stilshit
+*/
+
+body {
+  width: 100%;
+  font-family: 'Helvetica', sans-serif;
+  margin: auto;
+  background-color: #131313;
+  text-align: center;
+  }
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #13abcd;
+}
+pre,
+p {
+  color: #13abcd;
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  padding: 10 0 10 0;
+}
+
+button {
+  background-color: #13abcd;
+  color: #131313;
+  border-style: none;
+  height: 20px;
+  width: 180px;
+  font-size: 12px;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: #aaaaaa;
+  color: #13abcd;
+}
+
+.kopf {
+  margin: auto;
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.menu {
+  color: #13abcd;
+}
+
+
+.menu ul {
+  list-style-type: none;
+}
+
+
+.leinwand {
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.unten {
+  margin: auto;
+  background-color: #131313;
+  height: 50px;
+  padding: 10px 0 10px 0;
+  margin-bottom: 0px;
+}
